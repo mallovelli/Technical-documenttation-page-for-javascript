@@ -1,0 +1,29 @@
+main{
+margin-left: 200px;
+padding-right: 5px;
+line-height: 2rem;
+font-family:monospace;
+font-size: 1rem}
+a{
+  text-decoration: none;
+  color: green;
+}
+code{
+  background-color: lightgray;
+}
+nav{
+ position: fixed;
+ min-width: 195px;
+ top: 0px;
+ left: 0px;
+ width: 100px;
+ height: 100%;
+ border-right: solid;
+ margin-left: 5px;
+ overflow:auto;
+ }
+@media all {(min-width: 200px)
+  nav{
+    max-width:100%;
+  }
+}
